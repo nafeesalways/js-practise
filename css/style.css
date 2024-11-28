@@ -1,0 +1,86 @@
+/** COMMON CSS STARTS HERE */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ul,ol{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+body{
+    font-family: "arial";
+}
+.container{
+    width: 1170px;
+    margin: auto;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+.align-center{
+    align-items: center;
+}
+.justify-center{
+    justify-content: center;
+}
+/** COMMON CSS ENDS HERE */
+
+
+section{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+.counter{
+    display: flex;
+}
+
+.counter * {
+    width: 33.33%;
+    height: 40px;
+    border: none;
+}
+
+.counter button{
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+.counter input{
+    border: 1px solid #ccc;
+    font-size: 20px;
+    text-align: center;
+    outline: none;
+}
+
+
+
+.password{
+    position: relative;
+}
+.password input{
+    width: 450px;
+    height: 50px;
+    border-radius: 25px;
+    border: 1px solid #ccc;
+    outline: none;
+    padding:0  15px;
+}
+
+.password button{
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
